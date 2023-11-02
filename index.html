@@ -13,6 +13,7 @@
 
 <section>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
 <svg
    version="1.1"
    id="map"
@@ -2865,7 +2866,7 @@
 </section>
 </body>
 </html>
-
+\
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript">
 $("path, circle").hover(function(e) {
@@ -2878,8 +2879,8 @@ $("path, circle").mouseleave(function(e) {
 });
 
 $(document).mousemove(function(e) {
-  $('#info-box').css('top',e.pageY-$('#info-box').height()-30);
-  $('#info-box').css('left',e.pageX-($('#info-box').width())/2);
+  $('#info-box').css('top',e.pageY-$('#info-box').height()+40);
+  $('#info-box').css('left',e.pageX-($('#info-box').width())/50);
 }).mouseover();
 
 var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
