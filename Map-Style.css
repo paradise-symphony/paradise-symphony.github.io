@@ -13,6 +13,14 @@ path:hover, circle:hover {
     height: 100%;
   }
 
+  .mobile-instructions{
+    display: block;
+  }
+
+  .desktop-instructions{
+    display: none;
+  }
+
   #info-box {
     display: none;
     position: absolute;
@@ -32,10 +40,18 @@ path:hover, circle:hover {
   #map{
     display: block;
     position: absolute;
-    top: 4em;
+    top: 7em;
     left: 0;
     width: 100%;
     height: 100%;
+  }
+
+  .mobile-instructions{
+    display: none;
+  }
+
+  .desktop-instructions{
+    display: block;
   }
 
   #info-box {
