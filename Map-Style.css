@@ -18,7 +18,7 @@ path:hover, circle:hover {
   }
 
   .desktop-instructions{
-    display: none;
+    display: none !important;
   }
 
   #info-box {
@@ -47,7 +47,7 @@ path:hover, circle:hover {
   }
 
   .mobile-instructions{
-    display: none;
+    display: none !important;
   }
 
   .desktop-instructions{
